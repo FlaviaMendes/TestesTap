@@ -12,6 +12,8 @@ public class PaginaDetalheBagagem {
 
 	public PaginaDetalheBagagem(WebDriver driverUtilizado) {
 		this.driver = driverUtilizado;
+		
+		
 	}
 
 	public int quantidadeBagagem() {
