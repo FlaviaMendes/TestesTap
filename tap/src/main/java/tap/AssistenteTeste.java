@@ -7,5 +7,6 @@ public class AssistenteTeste {
 		System.out.println("Carregou propriedade do Chrome");
 	}
 	
+	
 
 }
