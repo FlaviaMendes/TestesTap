@@ -25,4 +25,13 @@ public class PaginaInicial {
 		return new PaginaDetalheBagagem(driver);
 	}
 
+	public PaginaLogin clicarBotaoLogin() {
+		String xpath = "//*[@id=\"logintopo\"]/div/a";
+		WebElement botaoLogin = driver.findElement(By.xpath(xpath));
+		botaoLogin.click();
+		
+		return new PaginaLogin(driver);
+	}
+
+
 }
